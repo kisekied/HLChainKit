@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "UIBezierPath+HLChainKit.h"
+#import "HLChainKit.h"
 
 @interface ViewController ()
 
