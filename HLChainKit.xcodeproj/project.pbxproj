@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E8BC52BC1F7F5F89009B1E9B /* NSMutableAttributedString+HLChainKit.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BC52BB1F7F5F89009B1E9B /* NSMutableAttributedString+HLChainKit.m */; };
 		E8E976991F75162200BBAF31 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E976981F75162200BBAF31 /* AppDelegate.m */; };
 		E8E9769C1F75162200BBAF31 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E9769B1F75162200BBAF31 /* ViewController.m */; };
 		E8E9769F1F75162200BBAF31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8E9769D1F75162200BBAF31 /* Main.storyboard */; };
@@ -17,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E8BC52BA1F7F5F89009B1E9B /* NSMutableAttributedString+HLChainKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+HLChainKit.h"; sourceTree = "<group>"; };
+		E8BC52BB1F7F5F89009B1E9B /* NSMutableAttributedString+HLChainKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+HLChainKit.m"; sourceTree = "<group>"; };
+		E8BC52BD1F7F6AED009B1E9B /* HLChainKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLChainKit.h; sourceTree = "<group>"; };
 		E8E976941F75162200BBAF31 /* HLChainKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HLChainKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8E976971F75162200BBAF31 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E8E976981F75162200BBAF31 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -80,6 +84,9 @@
 			children = (
 				E8F08DC41F7890CA0029BFC6 /* UIBezierPath+HLChainKit.h */,
 				E8F08DC51F7890CA0029BFC6 /* UIBezierPath+HLChainKit.m */,
+				E8BC52BA1F7F5F89009B1E9B /* NSMutableAttributedString+HLChainKit.h */,
+				E8BC52BB1F7F5F89009B1E9B /* NSMutableAttributedString+HLChainKit.m */,
+				E8BC52BD1F7F6AED009B1E9B /* HLChainKit.h */,
 			);
 			path = HLChainKit;
 			sourceTree = "<group>";
@@ -157,6 +164,7 @@
 			files = (
 				E8E9769C1F75162200BBAF31 /* ViewController.m in Sources */,
 				E8E976A71F75162200BBAF31 /* main.m in Sources */,
+				E8BC52BC1F7F5F89009B1E9B /* NSMutableAttributedString+HLChainKit.m in Sources */,
 				E8F08DC61F7890CA0029BFC6 /* UIBezierPath+HLChainKit.m in Sources */,
 				E8E976991F75162200BBAF31 /* AppDelegate.m in Sources */,
 			);
