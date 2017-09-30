@@ -28,6 +28,13 @@
     CGPoint p2 = CGPointMake(100, 50);
     CGPoint p3 = CGPointMake(100, 100);
 
+//    // original code
+//    [path moveToPoint:p1];
+//    [path addLineToPoint:p2];
+//    [path addLineToPoint:p3];
+//    [path closePath];
+
+    // HLChainKit
     path.moveTo(p1).lineTo(p2).lineTo(p3).close();
 
     CAShapeLayer *layer = [CAShapeLayer layer];
